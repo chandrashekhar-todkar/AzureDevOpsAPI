@@ -11,7 +11,7 @@ namespace AzureDevOpsAPI.Test
         {
             var controller = new ValuesController();
             var returnValue = controller.Get(1);
-            Assert.Equal("Chandrashekhar Todkar", returnValue.Value);
+            Assert.Equal("ChandrashekharTodkar", returnValue.Value);
         }
     }
 }
